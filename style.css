@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Work Sans;
+}
+
+
+/* ......header section style ....  */
+
+#header__section {
+    background-image: url("./images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header__element {
+    text-align: right;
+    padding-right: 230px;
+    padding-top: 215px;
+    padding-bottom: 165px;
+}
+
+.header__heading {
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    color: #151414;
+}
+
+.header__p {
+    color: #444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 100px;
+}
+
+.button{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background-color: #F15B22;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 25px;
+    margin-top: 95px;
+}
