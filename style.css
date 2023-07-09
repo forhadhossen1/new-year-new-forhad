@@ -89,3 +89,43 @@
     padding-left: 15px;
     padding-top: 25px;
 }
+
+/* ......plan section style.... */
+.plan__heading {
+    text-align: center;
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.watch__man{
+    background-image: linear-gradient(#ebb099, #463f3c00), url("./images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.watch__man h2{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left: 15px;
+padding-bottom: 15px;
+}
