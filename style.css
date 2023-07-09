@@ -108,7 +108,7 @@
     margin-bottom: 50px;
 }
 
-.watch__man{
+.watch__man {
     background-image: linear-gradient(#ebb099, #463f3c00), url("./images/watch.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,13 +119,62 @@
     border-radius: 10px;
 }
 
-.watch__man h2{
+.watch__man h2 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+
+/* ........footer section style......  */
+footer {
+    display: flex;
+    margin-top: 150px;
+    background-color: #151414;
+    color: white;
+    justify-content: space-between;
+    height: 500px;
+    align-items: center;
+}
+
+.content__heading {
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.content {
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.frm{
+    padding-right: 50px;
+}
+.frm__heading{
     color: #FFF;
 font-family: Work Sans;
-font-size: 40px;
+font-size: 25px;
 font-style: normal;
-font-weight: 700;
+font-weight: 600;
 line-height: normal;
-padding-left: 15px;
-padding-bottom: 15px;
+}
+
+input[type=email]{
+    width: 80%;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 25px;
+
 }
